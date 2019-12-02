@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: open sans;
+}
+
+#page-wrapper {
+	position: relative;
+    background-color: #111;
+
+}
+
+#header {
+	
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    background-color: #111;
+}
+
+#logo {
+    margin: 25px;
+    float: left;
+    display: inline-block;
+}
+
+#title {
+    font-size: 150%;
+    display: inline-block;
+    color: #fff;
+}
+
+#nav-bar {
+    display: inline-block;
+    float: right;
+}
+
+#nav-bar a {
+    margin: 35px 25px 25px 0px;
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#nav-bar a:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+.nav-link {
+    display: inline-block;
+    background-color: #FF8f00;
+    border: 3px solid #eee;
+    color: #111;
+    border-radius: 4px;
+}
+
+#home {
+    width: 100;
+    background-image:url( "http://smhgroup.com.bd/wp-content/uploads/2014/12/s3.jpg");
+    height: 654px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#home-desc {
+    font-size: 200%;
+    margin-top: 200px;
+    display: inline-block;
+    color: #fff;
+}
+
+#email {
+    width: 50%;
+    padding: 14px 16px;
+    margin: 8px 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 3px solid #eee;
+    border-radius: 4px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+#email:focus {
+    border: 3px solid #333;
+}
+
+#submit {
+    padding: 14px 16px;
+    font-size: 18px;
+    border: 3px solid #fff;
+    color: #111;
+    background-color: #FF8f00;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #111;
+    color: #fff;
+
+}
+
+#features {
+	
+    font-size: 18px;
+	background-color:orange;
+	display: flex;
+    flex-direction:column;
+	align-items:center;
+    margin: 10px 0px;
+	height: 900px;
+	
+}
+
+#features .icon {
+    display: flex;
+    align-items: center;
+	justify-content: center;
+    color: #FF8f00;
+    padding: 25px;
+	
+	}
+
+#features > .grid {
+    margin-top:110px;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #333;
+    height: 175;
+    width: 500px;
+    padding: 25px;
+    color: #fff;
+    border: 5px solid #eee;
+    border-radius: 5px;
+	
+}
+
+#features .desc {
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    height: 115px;
+    width: 80vw;
+    padding: 4px;
+}
+
+#how-it-works {
+    font-size: 18px;
+	background-color:orange;
+	display: flex;
+    flex-direction:column;
+	align-items:center;
+    margin: 10px 0px;
+	height: 860px;
+}
+
+#how-it-works .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF8f00;
+    padding: 25px;
+}
+
+#how-it-works > .grid {
+    margin-top:110px;
+    display: flex;
+    flex-direction: raw;
+    justify-content: center;
+    background-color: #333;
+    height: 200px;
+    width: 750px;
+    padding: 25px;
+	color: #fff;
+    border: 5px solid #eee;
+    border-radius: 5px;
+}
+
+#how-it-works .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 4px;
+}
+
+#how-it-works > iframe {
+    max-width: 560px;
+    width: 100%;
+   margin-top:50px;
+}
+
+#contact {
+    text-align: center;
+
+}
+
+#foot {
+    display:inline-block;
+    margin-top: 25px;
+    vertical-align: middle;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    border: 3px solid #fff;
+    color: #111;
+    background-color: #FF8f00;
+    border-radius: 4px;
+    cursor: pointer;
+}
